@@ -1,6 +1,12 @@
 ##### HANGMAN GAME IMPLEMENTED USING OBJECT-ORIENTED PROGRAMMING #####
 ##### CREATED BY: RAYNER LIM FANG YUH ######
 
+# FUTURE IMPROVEMENTS :
+# Possible addition of 'lives counter'. As of now, players have unlimited tries to guess the word.
+# A new method (eg. get_lives()) could be added to show the number of tries players have left.
+# Each time the player guesses incorrectly, -1 from the counter.
+# Could initialise with n = 5 lives or n = len(word)//2 lives
+
 # ATTRIBUTES :
 # topic : the topic chosen
 # list_of_topics : the words' dictionary, which represent the topics and words used
